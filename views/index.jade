@@ -1,0 +1,16 @@
+doctype
+html
+  head
+    title Image 
+    link(type='text/css',rel='stylesheet',href='/index.css')
+    script(src='//code.jquery.com/jquery-2.1.4.min.js')
+    script(src='/index.js')
+    meta(name='viewport',content='width=device-width,initial-scale=1')
+  body
+    div(id='query-box')
+      input(id='email')
+      button(id='show') Search Gravatar
+    div(id='result-box')
+      img(id='image')
+      a(id='perm-link',href='/')
+        h2(id='email-h2')

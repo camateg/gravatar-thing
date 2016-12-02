@@ -1,0 +1,15 @@
+doctype
+html
+  head
+    title #{email}
+    link(type='text/css',rel='stylesheet',href='/image.css')
+    meta(name='viewport',content='width=device-width,initial-scale=1')
+    
+    style
+      #main > div { width: 100%; text-align: center; }
+      .name { font-size: 20px; }
+
+  body
+    div(id='img-div')
+      img(src=img_url)
+      h2(class='email') #{email}

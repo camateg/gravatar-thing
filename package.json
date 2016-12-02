@@ -1,0 +1,10 @@
+{
+  "name": "ghash",
+  "version": "0.0.1",
+  "description": "ghash generator",
+  "dependencies": {
+      "MD5"        : "1.2.x"
+    , "express"    : "3.4.x"
+    , "jade"       : "*"
+  }
+}    
